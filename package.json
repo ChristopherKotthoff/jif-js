@@ -1,0 +1,13 @@
+{
+  "name": "jif",
+  "version": "0.1.0",
+  "description": "The if statement, finally powered by AI.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./register": "./register.js"
+  },
+  "engines": { "node": ">=22.15" },
+  "scripts": { "test": "node --test" },
+  "license": "MIT"
+}
